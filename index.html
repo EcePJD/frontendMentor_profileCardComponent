@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Profile card component</title>
+
+  <link rel="stylesheet" href="./styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <main>
+    <img id="bg-top" src="./images/bg-pattern-top.svg" alt="bg-pattern-top">
+
+    <img id="bg-bottom" src="./images/bg-pattern-bottom.svg" alt="bg-pattern-top">
+
+    <div class="container" id="container-main">
+      <div class="container" id="container-bg-img">
+        <img src="./images/bg-pattern-card.svg" alt="bg-profile-img">
+      </div>
+
+      <div class="container" id="container-profile">
+        <img src="./images/image-victor.jpg" alt="profile-img">
+
+        <div class="container" id="container-profile-details">
+          <div class="container" id="container-profile-title">
+            <h1 class="title" id="profile-name">Victor Crest</h1>
+            
+            <h2 id="profile-age">26</h2>
+          </div>
+          
+          <p class="location" id="profile-address">London</p>
+        </div>
+      </div>
+
+      <div class="container" id="container-profile-stats">
+        <div class="container container-stats">
+          <h3 class="label-stats" id="count-follower">80K</h3>
+          
+          <p class="label">Followers</p>
+        </div>
+
+        <div class="container container-stats">
+          <h3 class="label-stats" id="count-likes">803K</h3>
+          
+          <p class="label">Likes</p>
+        </div>
+
+        <div class="container container-stats">
+          <h3 class="label-stats" id="count-photos">1.4K</h3>
+          
+          <p class="label">Photos</p>
+        </div>
+      </div>
+    </div>
+  </main>
+
+  <footer class="attribution">
+    <span>Challenge by <a href="https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ" target="_blank">Frontend Mentor</a>.</span>
+    
+    <div class="separator"></div>
+    
+    <a href="./design/desktop-design.jpg" target="_blank">Design Guide - Desktop</a>
+    
+    <div class="separator"></div>
+
+    <a href="./design/mobile-design.jpg" target="_blank">Design Guide - Mobile</a>
+    
+    <div class="separator"></div>
+    
+    <div class="rating">
+      <span>Difficulty: Newbie</span>
+      <br class="text-cutter">
+      <span>[</span>
+      <div class="rate rate-lit" id="rate-newbie"></div>
+      <div class="rate" id="rate-junior"></div>
+      <div class="rate" id="rate-intermediate"></div>
+      <div class="rate" id="rate-advanced"></div>
+      <div class="rate" id="rate-guro"></div>
+      <span>]</span>
+    </div>
+    
+    <div class="separator"></div>
+    
+    <span>Coded by <a href="https://github.com/EcePJD">Patrick James O. De Leon</a>.</span>
+  </footer>
+</body>
+</html>
